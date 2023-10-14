@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-01T12:51:49 EET" name="Suite" finished-at="2023-06-01T12:51:51 EET" duration-ms="2545">
+    <groups>
+    </groups>
+    <test started-at="2023-06-01T12:51:49 EET" name="test" finished-at="2023-06-01T12:51:51 EET" duration-ms="2545">
+      <class name="tests.DeletePersonTest">
+        <test-method is-config="true" signature="init()[pri:0, instance:tests.DeletePersonTest@72f926e6]" started-at="2023-06-01T12:51:51 EET" name="init" finished-at="2023-06-01T12:51:51 EET" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="create_person(org.testng.ITestContext)[pri:0, instance:tests.DeletePersonTest@72f926e6]" started-at="2023-06-01T12:51:51 EET" name="create_person" finished-at="2023-06-01T12:51:51 EET" duration-ms="67" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@ca546a1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create_person -->
+        <test-method signature="deletePersonTest(org.testng.ITestContext)[pri:0, instance:tests.DeletePersonTest@72f926e6]" started-at="2023-06-01T12:51:51 EET" name="deletePersonTest" finished-at="2023-06-01T12:51:51 EET" duration-ms="36" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@ca546a1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletePersonTest -->
+      </class> <!-- tests.DeletePersonTest -->
+      <class name="tests.GetAllPersons">
+        <test-method is-config="true" signature="init()[pri:0, instance:tests.GetAllPersons@3daa422a]" started-at="2023-06-01T12:51:51 EET" name="init" finished-at="2023-06-01T12:51:51 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="testgetall()[pri:0, instance:tests.GetAllPersons@3daa422a]" started-at="2023-06-01T12:51:51 EET" name="testgetall" finished-at="2023-06-01T12:51:51 EET" duration-ms="67" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testgetall -->
+      </class> <!-- tests.GetAllPersons -->
+      <class name="tests.PatchPersontest">
+        <test-method is-config="true" signature="init()[pri:0, instance:tests.PatchPersontest@39529185]" started-at="2023-06-01T12:51:51 EET" name="init" finished-at="2023-06-01T12:51:51 EET" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="create_person(org.testng.ITestContext)[pri:1, instance:tests.PatchPersontest@39529185]" started-at="2023-06-01T12:51:51 EET" name="create_person" finished-at="2023-06-01T12:51:51 EET" duration-ms="66" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@ca546a1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create_person -->
+        <test-method signature="updatePersonTest(org.testng.ITestContext)[pri:2, instance:tests.PatchPersontest@39529185]" started-at="2023-06-01T12:51:51 EET" name="updatePersonTest" finished-at="2023-06-01T12:51:51 EET" duration-ms="66" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@ca546a1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updatePersonTest -->
+        <test-method signature="deletePersonTest(org.testng.ITestContext)[pri:3, instance:tests.PatchPersontest@39529185]" started-at="2023-06-01T12:51:51 EET" name="deletePersonTest" finished-at="2023-06-01T12:51:51 EET" duration-ms="31" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@ca546a1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletePersonTest -->
+      </class> <!-- tests.PatchPersontest -->
+      <class name="tests.E2E">
+        <test-method is-config="true" signature="init()[pri:0, instance:tests.E2E@43f9dd56]" started-at="2023-06-01T12:51:51 EET" name="init" finished-at="2023-06-01T12:51:51 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="create_person(org.testng.ITestContext)[pri:1, instance:tests.E2E@43f9dd56]" started-at="2023-06-01T12:51:51 EET" name="create_person" finished-at="2023-06-01T12:51:51 EET" duration-ms="46" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@ca546a1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create_person -->
+        <test-method signature="updatePersonTest(org.testng.ITestContext)[pri:2, instance:tests.E2E@43f9dd56]" started-at="2023-06-01T12:51:51 EET" name="updatePersonTest" finished-at="2023-06-01T12:51:51 EET" duration-ms="54" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@ca546a1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updatePersonTest -->
+        <test-method signature="deletePersonTest(org.testng.ITestContext)[pri:3, instance:tests.E2E@43f9dd56]" started-at="2023-06-01T12:51:51 EET" name="deletePersonTest" finished-at="2023-06-01T12:51:51 EET" duration-ms="30" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@ca546a1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletePersonTest -->
+      </class> <!-- tests.E2E -->
+      <class name="tests.CreatePersonTest">
+        <test-method is-config="true" signature="init()[pri:0, instance:tests.CreatePersonTest@4ac3c60d]" started-at="2023-06-01T12:51:49 EET" name="init" finished-at="2023-06-01T12:51:49 EET" duration-ms="570" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="create_person(org.testng.ITestContext)[pri:0, instance:tests.CreatePersonTest@4ac3c60d]" started-at="2023-06-01T12:51:49 EET" name="create_person" finished-at="2023-06-01T12:51:51 EET" duration-ms="1274" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@ca546a1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create_person -->
+        <test-method signature="deletePersonTest(org.testng.ITestContext)[pri:0, instance:tests.CreatePersonTest@4ac3c60d]" started-at="2023-06-01T12:51:51 EET" name="deletePersonTest" finished-at="2023-06-01T12:51:51 EET" duration-ms="54" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@ca546a1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletePersonTest -->
+      </class> <!-- tests.CreatePersonTest -->
+    </test> <!-- test -->
+  </suite> <!-- Suite -->
+</testng-results>

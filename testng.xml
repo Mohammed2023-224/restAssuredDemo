@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners><listener class-name="listener.ReportListener"></listener></listeners>
+	<test name="test">
+		<classes>
+			<class name="tests.CreatePersonTest" />
+			<class name="tests.PatchPersontest" />
+			<class name="tests.DeletePersonTest" />
+			<class name="tests.GetAllPersons" />
+			<class name="tests.E2E" />
+		</classes>
+	</test>
+</suite> <!-- Suite -->

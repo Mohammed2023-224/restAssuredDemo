@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+	
+	  <Properties>
+    <Property name="filename">./test-output/logs</Property>
+  </Properties>
+	<Appenders>
+		<RollingFile name="log" fileName="${filename}/logdemo.log"
+			filePattern="${filename}/logdemo- %d{HH-mm-ss} .log">
+			<PatternLayout>
+				<pattern>%d{yyyy-MM-dd HH:mm:ss} %-5p %l:%L - %m%n</pattern>
+			</PatternLayout>
+			<SizeBasedTriggeringPolicy size="5 MB" />
+		</RollingFile>
+		<Console name="Console" target="SYSTEM_OUT">
+			<PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} %-5p %l:%L - %m%n" />
+		</Console>
+	</Appenders>
+	<Loggers>
+		<logger name="its me " level="fatal" additivity='false'>
+			<AppenderRef ref="Console" />
+			<AppenderRef ref="log" />
+		</logger>
+		<Root level="trace">
+			<AppenderRef ref="Console" />
+			<AppenderRef ref="log" />
+		</Root>
+	</Loggers>
+</Configuration>

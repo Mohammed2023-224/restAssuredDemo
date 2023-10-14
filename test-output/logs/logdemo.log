@@ -1,0 +1,102 @@
+2023-05-25 15:20:17 INFO  helpers.PersonServiceHelper.<init>(PersonServiceHelper.java:20):20 - configure url
+2023-05-25 15:20:18 INFO  tests.CreatePersonTest.create_person(CreatePersonTest.java:28):28 - get faker data from faker class then adding it to pojo object
+2023-05-25 15:20:18 INFO  helpers.PersonServiceHelper.createPerson(PersonServiceHelper.java:37):37 - send post request to create new user
+2023-05-25 15:20:19 INFO  tests.CreatePersonTest.create_person(CreatePersonTest.java:38):38 - check status code==201
+2023-05-25 15:20:19 INFO  tests.CreatePersonTest.create_person(CreatePersonTest.java:40):40 - create global variable user id 78 from the response 
+2023-05-25 15:20:19 INFO  tests.CreatePersonTest.deletePersonTest(CreatePersonTest.java:45):45 - getting the id to delete 78
+2023-05-25 15:20:19 INFO  helpers.PersonServiceHelper.deletePerson(PersonServiceHelper.java:54):54 - send delete request to delete user
+2023-05-25 15:20:19 INFO  helpers.PersonServiceHelper.<init>(PersonServiceHelper.java:20):20 - configure url
+2023-05-25 15:20:19 INFO  tests.PatchPersontest.create_person(PatchPersontest.java:30):30 - get faker data from faker class then adding it to pojo object
+2023-05-25 15:20:19 INFO  helpers.PersonServiceHelper.createPerson(PersonServiceHelper.java:37):37 - send post request to create new user
+2023-05-25 15:20:19 INFO  tests.PatchPersontest.create_person(PatchPersontest.java:40):40 - check status code==201
+2023-05-25 15:20:19 INFO  tests.PatchPersontest.create_person(PatchPersontest.java:42):42 - create global variable user id 78 from the response 
+2023-05-25 15:20:19 INFO  tests.PatchPersontest.updatePersonTest(PatchPersontest.java:48):48 - create fake data for the patch request
+2023-05-25 15:20:19 INFO  tests.PatchPersontest.updatePersonTest(PatchPersontest.java:56):56 - getting id variable78
+2023-05-25 15:20:19 INFO  helpers.PersonServiceHelper.updatePerson(PersonServiceHelper.java:46):46 - send patch request to update user
+2023-05-25 15:20:19 INFO  tests.PatchPersontest.updatePersonTest(PatchPersontest.java:58):58 - checking that status code =200
+2023-05-25 15:20:19 INFO  tests.PatchPersontest.deletePersonTest(PatchPersontest.java:65):65 - getting the id to delete 78
+2023-05-25 15:20:19 INFO  helpers.PersonServiceHelper.deletePerson(PersonServiceHelper.java:54):54 - send delete request to delete user
+2023-05-25 15:20:19 INFO  helpers.PersonServiceHelper.<init>(PersonServiceHelper.java:20):20 - configure url
+2023-05-25 15:20:19 INFO  tests.DeletePersonTest.create_person(DeletePersonTest.java:27):27 - get faker data from faker class then adding it to pojo object
+2023-05-25 15:20:19 INFO  helpers.PersonServiceHelper.createPerson(PersonServiceHelper.java:37):37 - send post request to create new user
+2023-05-25 15:20:19 INFO  tests.DeletePersonTest.create_person(DeletePersonTest.java:37):37 - check status code==201
+2023-05-25 15:20:19 INFO  tests.DeletePersonTest.create_person(DeletePersonTest.java:39):39 - create global variable user id 78 from the response 
+2023-05-25 15:20:19 INFO  helpers.PersonServiceHelper.deletePerson(PersonServiceHelper.java:54):54 - send delete request to delete user
+2023-05-25 15:20:19 INFO  helpers.PersonServiceHelper.<init>(PersonServiceHelper.java:20):20 - configure url
+2023-05-25 15:20:19 INFO  helpers.PersonServiceHelper.getAllPerson(PersonServiceHelper.java:30):30 - send get request to get all users
+2023-05-25 15:20:19 INFO  helpers.PersonServiceHelper.<init>(PersonServiceHelper.java:20):20 - configure url
+2023-05-25 15:20:19 INFO  tests.E2E.create_person(E2E.java:33):33 - create fake data to the post request
+2023-05-25 15:20:19 INFO  tests.E2E.create_person(E2E.java:40):40 - send the post request
+2023-05-25 15:20:19 INFO  helpers.PersonServiceHelper.createPerson(PersonServiceHelper.java:37):37 - send post request to create new user
+2023-05-25 15:20:19 INFO  tests.E2E.updatePersonTest(E2E.java:51):51 - cretae fake data for the patch request
+2023-05-25 15:20:19 INFO  tests.E2E.updatePersonTest(E2E.java:59):59 - getting id variable78
+2023-05-25 15:20:19 INFO  helpers.PersonServiceHelper.updatePerson(PersonServiceHelper.java:46):46 - send patch request to update user
+2023-05-25 15:20:19 INFO  helpers.PersonServiceHelper.deletePerson(PersonServiceHelper.java:54):54 - send delete request to delete user
+2023-06-01 12:48:41 INFO  helpers.PersonServiceHelper.<init>(PersonServiceHelper.java:20):20 - configure url
+2023-06-01 12:48:41 INFO  tests.CreatePersonTest.create_person(CreatePersonTest.java:28):28 - get faker data from faker class then adding it to pojo object
+2023-06-01 12:48:41 INFO  helpers.PersonServiceHelper.createPerson(PersonServiceHelper.java:37):37 - send post request to create new user
+2023-06-01 12:48:42 INFO  tests.CreatePersonTest.create_person(CreatePersonTest.java:38):38 - check status code==201
+2023-06-01 12:48:42 INFO  tests.CreatePersonTest.create_person(CreatePersonTest.java:40):40 - create global variable user id 78 from the response 
+2023-06-01 12:48:42 INFO  tests.CreatePersonTest.deletePersonTest(CreatePersonTest.java:45):45 - getting the id to delete 78
+2023-06-01 12:48:42 INFO  helpers.PersonServiceHelper.deletePerson(PersonServiceHelper.java:54):54 - send delete request to delete user
+2023-06-01 12:48:42 INFO  helpers.PersonServiceHelper.<init>(PersonServiceHelper.java:20):20 - configure url
+2023-06-01 12:48:42 INFO  tests.PatchPersontest.create_person(PatchPersontest.java:30):30 - get faker data from faker class then adding it to pojo object
+2023-06-01 12:48:42 INFO  helpers.PersonServiceHelper.createPerson(PersonServiceHelper.java:37):37 - send post request to create new user
+2023-06-01 12:48:43 INFO  tests.PatchPersontest.create_person(PatchPersontest.java:40):40 - check status code==201
+2023-06-01 12:48:43 INFO  tests.PatchPersontest.create_person(PatchPersontest.java:42):42 - create global variable user id 78 from the response 
+2023-06-01 12:48:43 INFO  tests.PatchPersontest.updatePersonTest(PatchPersontest.java:48):48 - create fake data for the patch request
+2023-06-01 12:48:43 INFO  tests.PatchPersontest.updatePersonTest(PatchPersontest.java:56):56 - getting id variable78
+2023-06-01 12:48:43 INFO  helpers.PersonServiceHelper.updatePerson(PersonServiceHelper.java:46):46 - send patch request to update user
+2023-06-01 12:48:43 INFO  tests.PatchPersontest.updatePersonTest(PatchPersontest.java:58):58 - checking that status code =200
+2023-06-01 12:48:43 INFO  tests.PatchPersontest.deletePersonTest(PatchPersontest.java:65):65 - getting the id to delete 78
+2023-06-01 12:48:43 INFO  helpers.PersonServiceHelper.deletePerson(PersonServiceHelper.java:54):54 - send delete request to delete user
+2023-06-01 12:48:43 INFO  helpers.PersonServiceHelper.<init>(PersonServiceHelper.java:20):20 - configure url
+2023-06-01 12:48:43 INFO  tests.DeletePersonTest.create_person(DeletePersonTest.java:27):27 - get faker data from faker class then adding it to pojo object
+2023-06-01 12:48:43 INFO  helpers.PersonServiceHelper.createPerson(PersonServiceHelper.java:37):37 - send post request to create new user
+2023-06-01 12:48:43 INFO  tests.DeletePersonTest.create_person(DeletePersonTest.java:37):37 - check status code==201
+2023-06-01 12:48:43 INFO  tests.DeletePersonTest.create_person(DeletePersonTest.java:39):39 - create global variable user id 78 from the response 
+2023-06-01 12:48:43 INFO  helpers.PersonServiceHelper.deletePerson(PersonServiceHelper.java:54):54 - send delete request to delete user
+2023-06-01 12:48:43 INFO  helpers.PersonServiceHelper.<init>(PersonServiceHelper.java:20):20 - configure url
+2023-06-01 12:48:43 INFO  helpers.PersonServiceHelper.getAllPerson(PersonServiceHelper.java:30):30 - send get request to get all users
+2023-06-01 12:48:43 INFO  helpers.PersonServiceHelper.<init>(PersonServiceHelper.java:20):20 - configure url
+2023-06-01 12:48:43 INFO  tests.E2E.create_person(E2E.java:33):33 - create fake data to the post request
+2023-06-01 12:48:43 INFO  tests.E2E.create_person(E2E.java:40):40 - send the post request
+2023-06-01 12:48:43 INFO  helpers.PersonServiceHelper.createPerson(PersonServiceHelper.java:37):37 - send post request to create new user
+2023-06-01 12:48:43 INFO  tests.E2E.updatePersonTest(E2E.java:51):51 - cretae fake data for the patch request
+2023-06-01 12:48:43 INFO  tests.E2E.updatePersonTest(E2E.java:59):59 - getting id variable78
+2023-06-01 12:48:43 INFO  helpers.PersonServiceHelper.updatePerson(PersonServiceHelper.java:46):46 - send patch request to update user
+2023-06-01 12:48:43 INFO  helpers.PersonServiceHelper.deletePerson(PersonServiceHelper.java:54):54 - send delete request to delete user
+2023-06-01 12:51:49 INFO  helpers.PersonServiceHelper.<init>(PersonServiceHelper.java:20):20 - configure url
+2023-06-01 12:51:49 INFO  tests.CreatePersonTest.create_person(CreatePersonTest.java:28):28 - get faker data from faker class then adding it to pojo object
+2023-06-01 12:51:49 INFO  helpers.PersonServiceHelper.createPerson(PersonServiceHelper.java:37):37 - send post request to create new user
+2023-06-01 12:51:51 INFO  tests.CreatePersonTest.create_person(CreatePersonTest.java:38):38 - check status code==201
+2023-06-01 12:51:51 INFO  tests.CreatePersonTest.create_person(CreatePersonTest.java:40):40 - create global variable user id 78 from the response 
+2023-06-01 12:51:51 INFO  tests.CreatePersonTest.deletePersonTest(CreatePersonTest.java:45):45 - getting the id to delete 78
+2023-06-01 12:51:51 INFO  helpers.PersonServiceHelper.deletePerson(PersonServiceHelper.java:54):54 - send delete request to delete user
+2023-06-01 12:51:51 INFO  helpers.PersonServiceHelper.<init>(PersonServiceHelper.java:20):20 - configure url
+2023-06-01 12:51:51 INFO  tests.PatchPersontest.create_person(PatchPersontest.java:30):30 - get faker data from faker class then adding it to pojo object
+2023-06-01 12:51:51 INFO  helpers.PersonServiceHelper.createPerson(PersonServiceHelper.java:37):37 - send post request to create new user
+2023-06-01 12:51:51 INFO  tests.PatchPersontest.create_person(PatchPersontest.java:40):40 - check status code==201
+2023-06-01 12:51:51 INFO  tests.PatchPersontest.create_person(PatchPersontest.java:42):42 - create global variable user id 78 from the response 
+2023-06-01 12:51:51 INFO  tests.PatchPersontest.updatePersonTest(PatchPersontest.java:48):48 - create fake data for the patch request
+2023-06-01 12:51:51 INFO  tests.PatchPersontest.updatePersonTest(PatchPersontest.java:56):56 - getting id variable78
+2023-06-01 12:51:51 INFO  helpers.PersonServiceHelper.updatePerson(PersonServiceHelper.java:46):46 - send patch request to update user
+2023-06-01 12:51:51 INFO  tests.PatchPersontest.updatePersonTest(PatchPersontest.java:58):58 - checking that status code =200
+2023-06-01 12:51:51 INFO  tests.PatchPersontest.deletePersonTest(PatchPersontest.java:65):65 - getting the id to delete 78
+2023-06-01 12:51:51 INFO  helpers.PersonServiceHelper.deletePerson(PersonServiceHelper.java:54):54 - send delete request to delete user
+2023-06-01 12:51:51 INFO  helpers.PersonServiceHelper.<init>(PersonServiceHelper.java:20):20 - configure url
+2023-06-01 12:51:51 INFO  tests.DeletePersonTest.create_person(DeletePersonTest.java:27):27 - get faker data from faker class then adding it to pojo object
+2023-06-01 12:51:51 INFO  helpers.PersonServiceHelper.createPerson(PersonServiceHelper.java:37):37 - send post request to create new user
+2023-06-01 12:51:51 INFO  tests.DeletePersonTest.create_person(DeletePersonTest.java:37):37 - check status code==201
+2023-06-01 12:51:51 INFO  tests.DeletePersonTest.create_person(DeletePersonTest.java:39):39 - create global variable user id 78 from the response 
+2023-06-01 12:51:51 INFO  helpers.PersonServiceHelper.deletePerson(PersonServiceHelper.java:54):54 - send delete request to delete user
+2023-06-01 12:51:51 INFO  helpers.PersonServiceHelper.<init>(PersonServiceHelper.java:20):20 - configure url
+2023-06-01 12:51:51 INFO  helpers.PersonServiceHelper.getAllPerson(PersonServiceHelper.java:30):30 - send get request to get all users
+2023-06-01 12:51:51 INFO  helpers.PersonServiceHelper.<init>(PersonServiceHelper.java:20):20 - configure url
+2023-06-01 12:51:51 INFO  tests.E2E.create_person(E2E.java:33):33 - create fake data to the post request
+2023-06-01 12:51:51 INFO  tests.E2E.create_person(E2E.java:40):40 - send the post request
+2023-06-01 12:51:51 INFO  helpers.PersonServiceHelper.createPerson(PersonServiceHelper.java:37):37 - send post request to create new user
+2023-06-01 12:51:51 INFO  tests.E2E.updatePersonTest(E2E.java:51):51 - cretae fake data for the patch request
+2023-06-01 12:51:51 INFO  tests.E2E.updatePersonTest(E2E.java:59):59 - getting id variable78
+2023-06-01 12:51:51 INFO  helpers.PersonServiceHelper.updatePerson(PersonServiceHelper.java:46):46 - send patch request to update user
+2023-06-01 12:51:51 INFO  helpers.PersonServiceHelper.deletePerson(PersonServiceHelper.java:54):54 - send delete request to delete user

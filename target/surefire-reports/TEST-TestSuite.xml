@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="3.225" tests="11" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\USER\First_automation_workspace\restAssuredDemo\target\test-classes;C:\Users\USER\First_automation_workspace\restAssuredDemo\target\classes;C:\Users\USER\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\USER\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\USER\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\USER\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\USER\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\USER\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\USER\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\USER\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\USER\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\USER\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\USER\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\USER\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\USER\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\USER\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\USER\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.0\jackson-databind-2.15.0.jar;C:\Users\USER\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.0\jackson-annotations-2.15.0.jar;C:\Users\USER\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.0\jackson-core-2.15.0.jar;C:\Users\USER\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\USER\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\USER\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\USER\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\USER\.m2\repository\io\rest-assured\json-schema-validator\5.3.0\json-schema-validator-5.3.0.jar;C:\Users\USER\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\USER\.m2\repository\com\google\guava\guava\28.2-android\guava-28.2-android.jar;C:\Users\USER\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\USER\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\USER\.m2\repository\org\checkerframework\checker-compat-qual\2.5.5\checker-compat-qual-2.5.5.jar;C:\Users\USER\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\USER\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\USER\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\USER\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\USER\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\USER\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\USER\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\USER\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\USER\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\USER\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\USER\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\USER\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\USER\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\USER\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\USER\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\USER\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\USER\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\USER\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\USER\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\USER\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\USER\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\USER\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\USER\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\USER\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\USER\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\USER\.m2\repository\org\apache\logging\log4j\log4j-api\2.11.1\log4j-api-2.11.1.jar;C:\Users\USER\.m2\repository\org\apache\logging\log4j\log4j-core\2.11.1\log4j-core-2.11.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Africa/Cairo"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+    <property name="sun.java.command" value="C:\Users\USER\AppData\Local\Temp\surefire16030575787813255512\surefirebooter-20230601125148550_3.jar C:\Users\USER\AppData\Local\Temp\surefire16030575787813255512 2023-06-01T12-51-48_437-jvmRun1 surefire-20230601125148550_1tmp surefire_0-20230601125148550_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\USER\First_automation_workspace\restAssuredDemo\target\test-classes;C:\Users\USER\First_automation_workspace\restAssuredDemo\target\classes;C:\Users\USER\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\USER\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\USER\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\USER\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\USER\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\USER\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\USER\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\USER\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\USER\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\USER\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\USER\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\USER\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\USER\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\USER\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\USER\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.0\jackson-databind-2.15.0.jar;C:\Users\USER\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.0\jackson-annotations-2.15.0.jar;C:\Users\USER\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.0\jackson-core-2.15.0.jar;C:\Users\USER\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\USER\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\USER\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\USER\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\USER\.m2\repository\io\rest-assured\json-schema-validator\5.3.0\json-schema-validator-5.3.0.jar;C:\Users\USER\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\USER\.m2\repository\com\google\guava\guava\28.2-android\guava-28.2-android.jar;C:\Users\USER\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\USER\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\USER\.m2\repository\org\checkerframework\checker-compat-qual\2.5.5\checker-compat-qual-2.5.5.jar;C:\Users\USER\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\USER\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\USER\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\USER\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\USER\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\USER\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\USER\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\USER\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\USER\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\USER\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\USER\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\USER\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\USER\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\USER\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\USER\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\USER\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\USER\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\USER\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\USER\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\USER\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\USER\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\USER\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\USER\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\USER\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\USER\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\USER\.m2\repository\org\apache\logging\log4j\log4j-api\2.11.1\log4j-api-2.11.1.jar;C:\Users\USER\.m2\repository\org\apache\logging\log4j\log4j-core\2.11.1\log4j-core-2.11.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\USER"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-01-17"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\USER\First_automation_workspace\restAssuredDemo"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\USER\AppData\Local\Temp\surefire16030575787813255512\surefirebooter-20230601125148550_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.6+9-LTS-190"/>
+    <property name="user.name" value="USER"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\USER\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\USER\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.6"/>
+    <property name="user.dir" value="C:\Users\USER\First_automation_workspace\restAssuredDemo"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\USER\Desktop\Carrer\GitHub\Git\cmd;C:\Program Files\nodejs\;C:\Users\USER\AppData\Local\Microsoft\WindowsApps;C:\Users\USER\AppData\Local\GitHubDesktop\bin;C:\Users\USER\Desktop\Carrer\Testing\allure\allure-2.22.0\bin;C:\Users\USER\Desktop\Carrer\Testing\maven\apache-maven-3.9.1\bin;C:\Users\USER\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.6+9-LTS-190"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="create_person[org.testng.TestRunner@ca546a1](1)" classname="tests.CreatePersonTest" time="1.281">
+    <system-out><![CDATA[2023-06-01 12:51:49 INFO  helpers.PersonServiceHelper.<init>(PersonServiceHelper.java:20):20 - configure url
+2023-06-01 12:51:49 INFO  tests.CreatePersonTest.create_person(CreatePersonTest.java:28):28 - get faker data from faker class then adding it to pojo object
+2023-06-01 12:51:49 INFO  helpers.PersonServiceHelper.createPerson(PersonServiceHelper.java:37):37 - send post request to create new user
+2023-06-01 12:51:51 INFO  tests.CreatePersonTest.create_person(CreatePersonTest.java:38):38 - check status code==201
+2023-06-01 12:51:51 INFO  tests.CreatePersonTest.create_person(CreatePersonTest.java:40):40 - create global variable user id 78 from the response 
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="deletePersonTest[org.testng.TestRunner@ca546a1](1)" classname="tests.CreatePersonTest" time="0.055">
+    <system-out><![CDATA[2023-06-01 12:51:51 INFO  tests.CreatePersonTest.deletePersonTest(CreatePersonTest.java:45):45 - getting the id to delete 78
+2023-06-01 12:51:51 INFO  helpers.PersonServiceHelper.deletePerson(PersonServiceHelper.java:54):54 - send delete request to delete user
+]]></system-out>
+  </testcase>
+  <testcase name="create_person[org.testng.TestRunner@ca546a1](1)" classname="tests.PatchPersontest" time="0.065">
+    <system-out><![CDATA[2023-06-01 12:51:51 INFO  helpers.PersonServiceHelper.<init>(PersonServiceHelper.java:20):20 - configure url
+2023-06-01 12:51:51 INFO  tests.PatchPersontest.create_person(PatchPersontest.java:30):30 - get faker data from faker class then adding it to pojo object
+2023-06-01 12:51:51 INFO  helpers.PersonServiceHelper.createPerson(PersonServiceHelper.java:37):37 - send post request to create new user
+2023-06-01 12:51:51 INFO  tests.PatchPersontest.create_person(PatchPersontest.java:40):40 - check status code==201
+2023-06-01 12:51:51 INFO  tests.PatchPersontest.create_person(PatchPersontest.java:42):42 - create global variable user id 78 from the response 
+]]></system-out>
+  </testcase>
+  <testcase name="updatePersonTest[org.testng.TestRunner@ca546a1](1)" classname="tests.PatchPersontest" time="0.067">
+    <system-out><![CDATA[2023-06-01 12:51:51 INFO  tests.PatchPersontest.updatePersonTest(PatchPersontest.java:48):48 - create fake data for the patch request
+2023-06-01 12:51:51 INFO  tests.PatchPersontest.updatePersonTest(PatchPersontest.java:56):56 - getting id variable78
+2023-06-01 12:51:51 INFO  helpers.PersonServiceHelper.updatePerson(PersonServiceHelper.java:46):46 - send patch request to update user
+2023-06-01 12:51:51 INFO  tests.PatchPersontest.updatePersonTest(PatchPersontest.java:58):58 - checking that status code =200
+]]></system-out>
+  </testcase>
+  <testcase name="deletePersonTest[org.testng.TestRunner@ca546a1](1)" classname="tests.PatchPersontest" time="0.033">
+    <system-out><![CDATA[2023-06-01 12:51:51 INFO  tests.PatchPersontest.deletePersonTest(PatchPersontest.java:65):65 - getting the id to delete 78
+2023-06-01 12:51:51 INFO  helpers.PersonServiceHelper.deletePerson(PersonServiceHelper.java:54):54 - send delete request to delete user
+]]></system-out>
+  </testcase>
+  <testcase name="create_person[org.testng.TestRunner@ca546a1](1)" classname="tests.DeletePersonTest" time="0.066">
+    <system-out><![CDATA[2023-06-01 12:51:51 INFO  helpers.PersonServiceHelper.<init>(PersonServiceHelper.java:20):20 - configure url
+2023-06-01 12:51:51 INFO  tests.DeletePersonTest.create_person(DeletePersonTest.java:27):27 - get faker data from faker class then adding it to pojo object
+2023-06-01 12:51:51 INFO  helpers.PersonServiceHelper.createPerson(PersonServiceHelper.java:37):37 - send post request to create new user
+2023-06-01 12:51:51 INFO  tests.DeletePersonTest.create_person(DeletePersonTest.java:37):37 - check status code==201
+2023-06-01 12:51:51 INFO  tests.DeletePersonTest.create_person(DeletePersonTest.java:39):39 - create global variable user id 78 from the response 
+]]></system-out>
+  </testcase>
+  <testcase name="deletePersonTest[org.testng.TestRunner@ca546a1](1)" classname="tests.DeletePersonTest" time="0.037">
+    <system-out><![CDATA[2023-06-01 12:51:51 INFO  helpers.PersonServiceHelper.deletePerson(PersonServiceHelper.java:54):54 - send delete request to delete user
+]]></system-out>
+  </testcase>
+  <testcase name="testgetall" classname="tests.GetAllPersons" time="0.066">
+    <system-out><![CDATA[2023-06-01 12:51:51 INFO  helpers.PersonServiceHelper.<init>(PersonServiceHelper.java:20):20 - configure url
+2023-06-01 12:51:51 INFO  helpers.PersonServiceHelper.getAllPerson(PersonServiceHelper.java:30):30 - send get request to get all users
+]]></system-out>
+  </testcase>
+  <testcase name="create_person[org.testng.TestRunner@ca546a1](1)" classname="tests.E2E" time="0.046">
+    <system-out><![CDATA[2023-06-01 12:51:51 INFO  helpers.PersonServiceHelper.<init>(PersonServiceHelper.java:20):20 - configure url
+2023-06-01 12:51:51 INFO  tests.E2E.create_person(E2E.java:33):33 - create fake data to the post request
+2023-06-01 12:51:51 INFO  tests.E2E.create_person(E2E.java:40):40 - send the post request
+2023-06-01 12:51:51 INFO  helpers.PersonServiceHelper.createPerson(PersonServiceHelper.java:37):37 - send post request to create new user
+]]></system-out>
+  </testcase>
+  <testcase name="updatePersonTest[org.testng.TestRunner@ca546a1](1)" classname="tests.E2E" time="0.056">
+    <system-out><![CDATA[2023-06-01 12:51:51 INFO  tests.E2E.updatePersonTest(E2E.java:51):51 - cretae fake data for the patch request
+2023-06-01 12:51:51 INFO  tests.E2E.updatePersonTest(E2E.java:59):59 - getting id variable78
+2023-06-01 12:51:51 INFO  helpers.PersonServiceHelper.updatePerson(PersonServiceHelper.java:46):46 - send patch request to update user
+]]></system-out>
+  </testcase>
+  <testcase name="deletePersonTest[org.testng.TestRunner@ca546a1](1)" classname="tests.E2E" time="0.032">
+    <system-out><![CDATA[2023-06-01 12:51:51 INFO  helpers.PersonServiceHelper.deletePerson(PersonServiceHelper.java:54):54 - send delete request to delete user
+]]></system-out>
+  </testcase>
+</testsuite>
